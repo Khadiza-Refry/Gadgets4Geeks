@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cases & Covers</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="header-styles.css">
+  <link rel="stylesheet" href="footer.css">
+  
+  <script src="styles.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="topbar">
+      <a class="header1" href="index.html"><h1>GADGETS4GEEKS</h1></a>
+      <div class="searchbar">
+        <div class="search-container">
+          <form action="products.html">
+            <input type="text" placeholder="Search.." name="search">
+          </form>
+        </div>
+      </div>
+      <div class="top-right-btn">
+        <a class="account" href="products.html"><img src="account-icon.png" alt="Cart icon">My Account</a>
+        <a class="wishlist" href="products.html"><img src="heart-icon.png" alt="Cart icon">Shopping Wishlist</a>
+        <a class="cart" href="cart.html"><img src="cart-icon.png" alt="Cart icon">My Cart</a>
+      </div>
+      <div class="small-toprightbtn">
+        <a href="index.html">
+          <div class="small-account">
+            <img src="account-icon.png">
+            <p>MY ACCOUNT</p>
+          </div>
+        </a>
+        <a href="index.html">
+          <div class="small-heart">
+            <img src="heart-icon.png">
+            <p>WISHLIST</p>
+          </div>
+        </a>
+        <a href="cart.html">
+          <div class="small-cart">
+            <img src="cart-icon.png">
+            <p>CART</p>
+          </div>
+        </a>
+    </div>
+
+    <nav>
+      <div class="topnav" id="myTopnav">
+          <a href="index.html">HOME</a>
+          <a href="products.html">NEW ARRIVALS</a>
+          <a href="products.html">GIFT GUIDE</a>
+          <div class="dropdown">
+            <button class="dropbtn">PRODUCTS 
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="products.html">audio, headphones, speakers</a>
+              <a href="products.html">cables & adapters</a>
+              <a href="products.html">camera supplies</a>
+              <a href="products.html">cases & covers</a>
+              <a href="products.html">chargers</a>
+              <a href="products.html">docks & cradles</a>
+              <a href="products.html">flash drives</a>
+              <a href="products.html">game controllers</a>
+              <a href="products.html">keyboard & mouse</a>
+              <a href="products.html">torches & flashlights</a>
+              <a href="products.html">stylus</a>
+              <a href="products.html">toys & collectables</a>
+              <a href="products.html">virtual reality</a>
+            </div>
+          </div> 
+          <div class="dropdown">
+            <button class="dropbtn">SHOP BY DEVICE 
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="products.html">laptops</a>
+              <a href="products.html">mobile phones</a>
+              <a href="products.html">watches</a>
+              <a href="products.html">tablets</a>
+            </div>
+          </div> 
+        
+          <a href="javascript:void(0);" style="font-size:16px;" class="icon" onclick="myFunction()">&#9776;
+          </a>
+        </div>
+    </nav>    
+  </header>
+  
+  <main>
+    <a href="index.html" class="breadcrumb" id="home">HOME ></a>
+    <a href="products.html" class="breadcrumb" id="products">CASES & COVERS</a>
+    <h2 class="page-title">CASES & COVERS</h2>
+    
+    <!-- FILTER BY BUTTON -->
+    <div class="categorise" id="filter-by">
+      <form>
+        <select id="sortby" name="sortby">
+            <option>FILTER BY</option>
+            <option value="Laptops">Laptops</option>
+            <option value="Mobile Phones">Mobile Phones</option>
+            <option value="Watches">Watches</option>
+            <option value="Tablets">Tablets</option>
+        </select>
+      </form>
+    </div>
+
+    <!-- SORT BY BUTTON -->
+    <div class="categorise" id="sort-by">
+      <form>
+        <select id="sortby" name="sortby">
+            <option>SORT BY</option>
+            <option value="New Arrivals">New Arrivals</option>
+            <option value="Price low-high">Price: Low to High</option>
+            <option value="Price high-low">Price: High to Low</option>
+        </select>
+      </form>
+    </div>
+
+    <!-- PRODUCT LISTING -->
+    <section>
+      <div class="products-container">
+        <div class="section">
+          <div class="column">
+            <a href="laptop-case-1.html"><img class="listing1" src="laptop-case-1.jpeg"></a>
+            <h3>Frosted Hard Case for Apple MacBook Air (13-inch) 2020 / 2019 / 2018</h3>
+            <p class="prices">$25.95</p>
+            <p class="stock-level">Stock Level High</p>
+            <a class="heart-button" href="index.html"><img src="heart-icon.png" alt="Heart icon"></a>
+            <a class="cart-button" href="cart.html">+ ADD TO CART</a>
+          </div>
+          <div class="column">
+            <a href="laptop-case-1.html"><img class="listing1" src="watch-1.jpeg"></a>
+            <h3>Sport Plus Silicone Band Strap for Apple Watch 38mm / 40mm - Black (Green)</h3>
+            <p class="prices">$19.45</p>
+            <p class="stock-level">Stock Level High</p>
+            <a class="heart-button" href="index.html"><img src="heart-icon.png" alt="Heart icon"></a>
+            <a class="cart-button" href="cart.html">+ ADD TO CART</a>
+          </div>
+          <div class="column">
+            <a href="laptop-case-1.html"><img class="listing1" src="laptop-case-2.jpeg"></a>
+            <h3>Frosted Hard Shell Case for Apple MacBook Air (13-inch) 2020 / 2021 - White</h3>
+            <p class="prices">$24.95</p>
+            <p class="stock-level">Stock Level High</p>
+            <a class="heart-button" href="index.html"><img src="heart-icon.png" alt="Heart icon"></a>
+            <a class="cart-button" href="cart.html">+ ADD TO CART</a>
+          </div>
+          <div class="column">
+            <a href="laptop-case-1.html"><img class="listing1" src="laptop-case-8.jpeg"></a>
+            <h3>9H Tempered Glass Screen Protector for Apple MacBook Pro (16-inch) 2020 / 2021</h3>
+            <p class="prices">$21.95</p>
+            <p class="stock-level">Stock Level High</p>
+            <a class="heart-button" href="index.html"><img src="heart-icon.png" alt="Heart icon"></a>
+            <a class="cart-button" href="cart.html">+ ADD TO CART</a>
+          </div>
+        </div>
+        <div class="section">
+          <div class="column">
+            <a href="laptop-case-1.html"><img class="listing2" src="phone-1.jpeg"></a>
+            <h3>LifeProof Fre Waterproof Case for Apple iPhone 12 Pro Max - Black (Matte Grip)</h3>
+            <p class="prices">$99.95</p>
+            <p class="stock-level">Stock Level High</p>
+            <a class="heart-button" href="index.html"><img src="heart-icon.png" alt="Heart icon"></a>
+            <a class="cart-button" href="cart.html">+ ADD TO CART</a>
+          </div>
+          <div class="column">
+            <a href="laptop-case-1.html"><img class="listing2" src="phone-2.jpeg"></a>
+            <h3>Flexi Slim Gel Case for Apple iPhone 12 Pro Max - Clear (Gloss Grip)</h3>
+            <p class="prices">$14.95</p>
+            <p class="stock-level">Stock Level High</p>
+            <a class="heart-button" href="index.html"><img src="heart-icon.png" alt="Heart icon"></a>
+            <a class="cart-button" href="cart.html">+ ADD TO CART</a>
+          </div>
+          <div class="column">
+            <a href="laptop-case-1.html"><img class="listing2" src="watch-2.jpeg"></a>
+            <h3>Milanese Loop Magnetic Stainless Steel Band for Apple Watch 42mm / 44mm - Gold</h3>
+            <p class="prices">$44.95</p>
+            <p class="stock-level">Stock Level High</p>
+            <a class="heart-button" href="index.html"><img src="heart-icon.png" alt="Heart icon"></a>
+            <a class="cart-button" href="cart.html">+ ADD TO CART</a>
+          </div>
+          <div class="column">
+            <a href="laptop-case-1.html"><img class="listing1" src="tablet-1.jpeg"></a>
+            <h3>Trifold Sleep/Wake Smart Case & Stand for Apple iPad Air (4th Gen) - Black</h3>
+            <p class="prices">$29.95</p>
+            <p class="stock-level">Stock Level High</p>
+            <a class="heart-button" href="index.html"><img src="heart-icon.png" alt="Heart icon"></a>
+            <a class="cart-button" href="cart.html">+ ADD TO CART</a>
+          </div>
+        </div>
+        <div class="section">
+          <div class="column">
+            <a href="laptop-case-1.html"><img class="listing3" src="laptop-case-3.jpeg"></a>
+            <h3>Glossy Hard Shell Case for Apple MacBook Air (13-inch) 2020 / 2021 - Blue</h3>
+            <p class="prices">$25.95</p>
+            <p class="stock-level">Stock Level High</p>
+            <a class="heart-button" href="index.html"><img src="heart-icon.png" alt="Heart icon"></a>
+            <a class="cart-button" href="cart.html">+ ADD TO CART</a>
+          </div>
+          <div class="column">
+            <a href="laptop-case-1.html"><img class="listing3" src="laptop-case-4.jpeg"></a>
+            <h3>Haweel (15-inch) Large Zipper Sleeve Handbag Travel Case for MacBook</h3>
+            <p class="prices">$28.95</p>
+            <p class="stock-level">Stock Level High</p>
+            <a class="heart-button" href="index.html"><img src="heart-icon.png" alt="Heart icon"></a>
+            <a class="cart-button" href="cart.html">+ ADD TO CART</a>
+          </div>
+          <div class="column">
+            <a href="laptop-case-1.html"><img class="listing3" src="laptop-case-5.jpeg"></a>
+            <h3>Heavy Duty Tough Shockproof Case for Apple MacBook Air (13-inch) 2020 / 2021 - Grey </h3>
+            <p class="prices">$44.95</p>
+            <p class="stock-level">Stock Level High</p>
+            <a class="heart-button" href="index.html"><img src="heart-icon.png" alt="Heart icon"></a>
+            <a class="cart-button" href="cart.html">+ ADD TO CART</a>
+          </div>
+          <div class="column">
+            <a href="laptop-case-1.html"><img class="listing1" src="tablet-2.jpeg"></a>
+            <h3>Benks Paper-Like Screen Protector for iPad Air (4th Gen) / Pro 11-inch (1st / 2nd / 3rd Gen)</h3>
+            <p class="prices">$24.95</p>
+            <p class="stock-level">Stock Level High</p>
+            <a class="heart-button" href="index.html"><img src="heart-icon.png" alt="Heart icon"></a>
+            <a class="cart-button" href="cart.html">+ ADD TO CART</a>
+          </div>
+        </div>
+        <div class="section">
+          <div class="column">
+            <a href="laptop-case-1.html"><img class="listing4" src="phone-3.jpeg"></a>
+            <h3>Full Coverage Tempered Glass Screen Protector for Apple iPhone 12 Pro Max - Black</h3>
+            <p class="prices">$18.95</p>
+            <p class="stock-level">Stock Level High</p>
+            <a class="heart-button" href="index.html"><img src="heart-icon.png" alt="Heart icon"></a>
+            <a class="cart-button" href="cart.html">+ ADD TO CART</a>
+          </div>
+          <div class="column">
+            <a href="laptop-case-1.html"><img class="listing4" src="laptop-case-6.jpeg"></a>
+            <h3>Pofoko (13-inch) Zipper Sleeve Carry Case for Tablet / MacBook / Laptop </h3>
+            <p class="prices">$24.95</p>
+            <p class="stock-level">Stock Level High</p>
+            <a class="heart-button" href="index.html"><img src="heart-icon.png" alt="Heart icon"></a>
+            <a class="cart-button" href="cart.html">+ ADD TO CART</a>
+          </div>
+          <div class="column">
+            <a href="laptop-case-1.html"><img class="listing4" src="laptop-case-7.jpeg"></a>
+            <h3>Universal (13-inch) Carry Sleeve Bag Case for MacBook / Laptop / Tablet</h3>
+            <p class="prices">$28.45</p>
+            <p class="stock-level">Stock Level High</p>
+            <a class="heart-button" href="index.html"><img src="heart-icon.png" alt="Heart icon"></a>
+            <a class="cart-button" href="cart.html">+ ADD TO CART</a>
+          </div>
+          <div class="column">
+            <a href="laptop-case-1.html"><img class="listing1" src="watch-3.jpeg"></a>
+            <h3>Milanese Loop Magnetic Stainless Steel Band for Apple Watch 42mm / 44mm - Silver</h3>
+            <p class="prices">$44.95</p>
+            <p class="stock-level">Stock Level High</p>
+            <a class="heart-button" href="index.html"><img src="heart-icon.png" alt="Heart icon"></a>
+            <a class="cart-button" href="cart.html">+ ADD TO CART</a>
+          </div>
+        </div>
+    </div>
+      <article></article>
+    </section>
+  </main>
+  
+  <footer>
+    <div class="newsletter">
+      <form class="form">
+        <h4><label for="sign up">Join for Special Offers & Coupons!</label></h4>
+          <input class="sign-up" type="text" name="sign up" value="Enter your email">
+          <button class="subscribe-button">subscribe</button>
+      </form>
+    </div>
+
+    <div class="footer-links">
+      <ul class="footer-section1"><h5>Information</h5>
+        <li><p class="content">About Us</p></li>
+        <li><p class="content">Blog</p></li>
+        <li><p class="content">Shipping Policy</p></li>
+        <li><p class="content">Returns</p></li>
+        <li><p class="content">Support</p></li>
+        <li><p class="content">Contact Us</p></li>
+        <li><p class="content">Sitemap</p></li>
+      </ul>
+      <ul class="footer-section2"><h5>My Account</h5>
+        <li><p class="content">Sign In</p></li>
+        <li><p class="content">Register</p></li>
+      </ul>
+      <ul class="footer-section3"><h5>Store Location</h5>
+        <li><p class="content">Unit 25B</p></li>
+        <li><p class="content">33 - 37 College St</p></li>
+        <li><p class="content">Gladesville NSW</p></li>
+        <li><p class="content">2111</p></li>
+        <li><p class="content">Austrlia</p></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>

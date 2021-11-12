@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap');
+@import url("https://use.typekit.net/abo3msj.css");
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+header {
+  font-family: novecento-sans-wide, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #243E73;
+}
+
+.main {
+  padding-left:16px;
+}
+
+/* Headings */
+.page-title {
+  font-family: novecento-sans-wide, sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  font-style: normal;
+  color: #243E73;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  text-align: left;
+  color: black;
+}
+
+.prices {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 20px;
+  font-weight: 700;
+  font-style: normal;
+  text-align: left;
+  color: #F2836B;
+}
+
+.stock-level {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+  color: green;
+}
+
+/* Images */
+.product-img {
+  position: relative;
+}
+
+/* [Home "Best Selling" & Products Page - Product Listing ] */
+.listing1, .listing2, .listing3, .listing4 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  margin-bottom: 5%;
+  margin-top: 10%;
+}
+
+.products-container {
+  display: flex;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.section {
+  flex: 1; /*grow*/
+  margin: auto 2% 2% auto;
+}
+
+.products-container img {
+  width: 5cm;
+  height: 5cm;
+}
+
+.breadcrumb {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  text-align: left;
+  color: #243E73;
+  margin-left: 1%;
+}
+
+#home {
+  margin-left: 2.5%;
+}
+
+.heart-button {
+  float: left;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  background-color: #F2F2F2;
+  text-decoration: none;
+  padding: 4px 8px;
+  border: 2px solid #243E73;
+  border-radius: 4px;
+  list-style-image: none;
+  margin-right: 4px;
+  transition-duration: 0.4s;
+  height: 10mm;
+  margin-bottom: 10%;
+}
+
+.heart-button img {
+  width: 7.5mm;
+  height: 7.5mm;
+}
+
+.heart-button:hover{
+  transform: translateY(-2px);
+  }
+
+.cart-button {
+  display: inline-block;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  text-align: center;
+  position: relative;
+  background-color: #243E73;
+  color: #F2F2F2;
+  text-decoration: none;
+  padding: 8px 16px;
+  border: 2px solid #f2f2f2;
+  border-radius: 4px;
+  transition-duration: 0.4s;
+  height: 10mm;
+  margin-bottom: 10%;
+}
+
+.cart-button:hover{
+  background: #F2F2F2;
+  color: #243E73;
+  transform: translateY(-2px);
+  border: 2px solid #243E73;
+}
+
+.column {
+  height: 50%;
+  margin-bottom: 30mm;
+  align-items: center;
+}
+
+@media (max-width: 600px) {
+  .products-container {
+    flex-direction: column;
+  }
+}
+
+/* [PRODUCTS PAGE - Filter Buttons ] */
+.fiterbtn {
+  float: left;
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #F2F2F2;
+  color: #243E73;
+  cursor: pointer;
+}
+
+.filterbtn:hover {
+  background-color: #F2BBCF;
+}
+
+.filterbtn.active {
+  background-color: #F2BBCF;
+  color: #243E73;
+}
+
+.show {
+  display: block;
+}
+
+/* [PRODUCTS PAGE - "Sort By" Button] */
+.categorise {
+  text-align: center;
+  overflow-x: auto;
+  overflow-y: hidden;
+  margin-bottom: 10px;
+  margin-left: 5%;
+}
+
+#sortby {
+  display: block;
+  width: auto;
+  border: 4px solid #243E73;
+  padding: 8px 8px 8px 8px;
+  color: #243E73;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+}
+
+#filter-by, #sort-by {
+  display: inline-block;
+}
+
+/* [LAPTOP-CASE-1 PAGE] */
+.parts {
+  vertical-align: text-top;
+  flex: 1; /*grow*/
+  margin: auto 2% 2% auto;
+  display: inline-block;
+}
+.prodpage-img {
+  size: 5cm;
+  display: block;
+  padding-left: 5%;
+}
+
+.prodpage-visuals {
+  display: inline-block;
+  margin-left: 5%;
+}
+
+.prodpage-content {
+  display: inline-block;
+  margin-top: 2%;
+  margin-left: 1%;
+  width: 35%;
+}
+
+.prodpage-details {
+  display: inline-block;
+  margin-top: 2%;
+  margin-left: 1%;
+  margin-right: 5%;
+  width: 15%;
+}
+
+.prodpage-content h4 {
+  display: block;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  text-align: left;
+  color: black;
+}
+
+.prodpage-content .stock-level {
+  display: block;
+  font-size: 16px;
+}
+
+.prodpage-content p {
+  display: block;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+}
+
+.prodpage-content .ratings {
+  color: orange;
+}
+
+.prodpage-content .benefits {
+  font-size: 12px;
+}
+
+.prodpage-details .heart-button {
+  display: block;
+  text-align: center;
+  background-color: #F2F2F2;
+  text-decoration: none;
+  padding: 4px 8px;
+  border: 2px solid #243E73;
+  border-radius: 4px;
+  list-style-image: none;
+  transition-duration: 0.4s;
+  height: 13mm;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  color: #243E73;
+  width: 60mm;
+  margin-bottom: 5%;
+  position: relative;
+}
+
+.prodpage-details .heart-button img {
+  width: 7.5mm;
+  height: 7.5mm;
+  margin-right: 5%;
+  padding-top: 1mm;
+} 
+
+.prodpage-details .cart-button {
+  font-size: 16px;
+  padding: 12px 16px;
+  height: 13mm;
+  width: 60mm;
+}
+
+.prodpage-details .prices {
+  display: block;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 26px;
+  font-weight: 500;
+  font-style: normal;
+  text-align: left;
+  color: #243E73;
+  background-color: #F2836B;
+  border: 3px solid #243E73;
+  padding: 8px 8px 8px 8px;
+  border-radius: 8px;
+  width: fit-content;
+  align-items: center;
+  margin: 0;
+}
+
+.prodpage-details #sortby {
+  display: block;
+  width: auto;
+  border: 3px solid black;
+  padding: 8px 8px 8px 8px;
+  color: black;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.details {
+  display: block;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+}
+
+/* [LAPTOP-CASE-1 PAGE - Description Section] */
+.des-section {
+  margin: 5% 5% 5% 5%;
+}
+
+.tablinks {
+  font-family: novecento-sans-wide, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #243E73;
+  font-size: 14px;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+.tab {
+  overflow: hidden;
+  border: 2px solid #F2F2F2;
+  background-color: #F2F2F2;
+}
+
+.tab button:hover {
+  background-color: #243E73;
+  color: #F2F2F2;
+}
+
+.tab button.active {
+  background-color: #243E73;
+  color: #F2F2F2;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #F2F2F2;
+  border-top: none;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  text-align: left;
+  color: black;
+  width: auto;
+}
+
+.tab-subtitle {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  text-align: left;
+  color: black;
+}

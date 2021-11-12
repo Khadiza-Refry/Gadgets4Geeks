@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Checkout</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="header-styles.css">
+  <link rel="stylesheet" href="footer.css">
+  <link rel="stylesheet" href="cart.css">
+  
+  <script src="styles.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="topbar">
+      <a class="header1" href="index.html"><h1>GADGETS4GEEKS</h1></a>
+      <div class="searchbar">
+        <div class="search-container">
+          <form action="products.html">
+            <input type="text" placeholder="Search.." name="search">
+          </form>
+        </div>
+      </div>
+      <div class="top-right-btn">
+        <a class="account" href="cart.html"><img src="account-icon.png" alt="Cart icon">My Account</a>
+        <a class="wishlist" href="cart.html"><img src="heart-icon.png" alt="Cart icon">Shopping Wishlist</a>
+        <a class="cart" href="cart.html"><img src="cart-icon-1.png" alt="Cart icon">My Cart</a>
+      </div>
+      <div class="small-toprightbtn">
+        <a href="index.html">
+          <div class="small-account">
+            <img src="account-icon.png">
+            <p>MY ACCOUNT</p>
+          </div>
+        </a>
+        <a href="index.html">
+          <div class="small-heart">
+            <img src="heart-icon.png">
+            <p>WISHLIST</p>
+          </div>
+        </a>
+        <a href="cart.html">
+          <div class="small-cart">
+            <img src="cart-icon.png">
+            <p>CART</p>
+          </div>
+        </a>
+    </div>
+
+    <nav>
+      <div class="topnav" id="myTopnav">
+          <a href="index.html">HOME</a>
+          <a href="products.html">NEW ARRIVALS</a>
+          <a href="products.html">GIFT GUIDE</a>
+          <div class="dropdown">
+            <button class="dropbtn">PRODUCTS 
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="products.html">audio, headphones, speakers</a>
+              <a href="products.html">cables & adapters</a>
+              <a href="products.html">camera supplies</a>
+              <a href="products.html">cases & covers</a>
+              <a href="products.html">chargers</a>
+              <a href="products.html">docks & cradles</a>
+              <a href="products.html">flash drives</a>
+              <a href="products.html">game controllers</a>
+              <a href="products.html">keyboard & mouse</a>
+              <a href="products.html">torches & flashlights</a>
+              <a href="products.html">stylus</a>
+              <a href="products.html">toys & collectables</a>
+              <a href="products.html">virtual reality</a>
+            </div>
+          </div> 
+          <div class="dropdown">
+            <button class="dropbtn">SHOP BY DEVICE 
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="products.html">laptops</a>
+              <a href="products.html">mobile phones</a>
+              <a href="products.html">watches</a>
+              <a href="products.html">tablets</a>
+            </div>
+          </div> 
+        
+          <a href="javascript:void(0);" style="font-size:16px;" class="icon" onclick="myFunction()">&#9776;
+          </a>
+        </div>
+    </nav>    
+  </header>
+
+  <main>
+    <div class="checkout-title">
+        <h2 class="page-title">SHOPPING CART</h2>
+    </div>
+
+    <div class="cart-row">
+        <div class="cart-col">
+          <div class="cart-container">
+            <p><a class="cart-prod">PRODUCT</a></p>
+            <hr>
+            <p><img href="laptop-case-1.html" class="cart-prodimg" src="laptop-case-1.jpeg"><span class="prod-name" id="prod-name">Hard Case for Apple MacBook Air (13-inch) 2020 / 2021</span>
+              <a href="laptop-case-1.html" class="remove">X Remove</a></p>
+          </div>
+        </div>
+
+        <div class="cart-col">
+          <div class="cart-container">
+            <p><a class="cart-prodnum">QUANTITY</a><span class="cart-prodprice">PRICE</span><span class="subtotal">SUBTOTAL</span></p>
+            <hr>
+            <div class="right-col">
+              <div class="cart-quan">
+                <div class="quan-btn">  
+                    <form>
+                    <select id="sortby" name="sortby">
+                        <option>1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                    </form>
+                </div>
+                <p><a class="prodprice-content">$25.95</a><span class="subtotal-content">$25.95</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+      <hr>
+    <div class="bottom-btn">
+      <a class="shop-btn" href="index.html">CONTINUE SHOPPING</a>
+      <a class="checkout-btn" href="checkout.html">PROCEED TO CHECKOUT →</a>
+    </div>
+  </main>
+    
+  <footer>
+    <div class="newsletter">
+      <form class="form">
+        <h4><label for="sign up">Join for Special Offers & Coupons!</label></h4>
+          <input class="sign-up" type="text" name="sign up" value="Enter your email">
+          <button class="subscribe-button">subscribe</button>
+      </form>
+    </div>
+
+    <div class="footer-links">
+      <ul class="footer-section1"><h5>Information</h5>
+        <li><p class="content">About Us</p></li>
+        <li><p class="content">Blog</p></li>
+        <li><p class="content">Shipping Policy</p></li>
+        <li><p class="content">Returns</p></li>
+        <li><p class="content">Support</p></li>
+        <li><p class="content">Contact Us</p></li>
+        <li><p class="content">Sitemap</p></li>
+      </ul>
+      <ul class="footer-section2"><h5>My Account</h5>
+        <li><p class="content">Sign In</p></li>
+        <li><p class="content">Register</p></li>
+      </ul>
+      <ul class="footer-section3"><h5>Store Location</h5>
+        <li><p class="content">Unit 25B</p></li>
+        <li><p class="content">33 - 37 College St</p></li>
+        <li><p class="content">Gladesville NSW</p></li>
+        <li><p class="content">2111</p></li>
+        <li><p class="content">Austrlia</p></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>

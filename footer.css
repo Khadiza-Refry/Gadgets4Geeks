@@ -1,0 +1,101 @@
+/* [Newsletter Subscription Section] */
+.newsletter {
+  background-color: #F2F2F2;
+  float: center;
+  position: relative;
+  height: 40mm;
+  text-align: center;
+  padding-top: 10mm;
+  z-index: -1;
+ }
+
+.newsletter h4 {
+  float: left;
+  display: inline-block;
+  position: relative;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  text-align: left;
+  margin-left: 20%;
+  width: 25%;
+  margin-top: 26px;
+ }
+
+.form input {
+  float: left;
+  display: inline-block;
+  position: relative;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+  text-align: left;
+  width: 25%;
+  margin-top: 26px;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+}
+
+.subscribe-button {
+  float: left;
+  display: inline-block;
+  position: relative;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  text-align: center;
+  position: relative;
+  background-color: #243E73;
+  color: #F2F2F2;
+  text-decoration: none;
+  padding: 8px 16px;
+  border: 2px solid #f2f2f2;
+  border-radius: 4px;
+  transition-duration: 0.4s;
+  height: 10mm;
+  width: 30mm;
+  margin-top: 20px;
+  margin-left: 0.5%;
+  margin-right: 5%;
+}
+
+/* [Footer Links Section] */
+.footer-section1, .footer-section2, .footer-section3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  list-style: none;
+}
+.footer-links {
+  position: relative;
+  height: 100mm;
+  text-align: center;
+  padding-top: 10mm;
+  display: flex;
+  margin-left: 5%;
+  z-index: -1;
+}
+
+.footer-links h5 {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  text-align: left;
+  margin-top: 26px;
+}
+
+.footer-links p {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+}
+
